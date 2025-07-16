@@ -1,0 +1,496 @@
+.bg-buddy{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    filter: .6;position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    margin: 0;
+}
+body{
+    height: 800px;
+    overflow-x:hidden;
+    margin: 0;
+}
+#navbarNav{
+    width: 99%;
+}
+.navbar{
+    margin-left: 0px;
+    margin-top: 40px;
+}
+.nav-item{
+    font-size: 24px;
+    
+}
+
+.navbar-nav{
+    width: 100%;
+}
+.elephant{
+    width: 103%;
+
+}
+.nav-item{
+    text-align: center;
+
+}
+
+.navbar-toggler-icon{
+    background-color: white;
+}
+.select:before{
+    content: "\25be  or  \25bc  ?  ";
+    float:right;
+    color:gray;
+}
+.select:after{
+    content: "";
+    margin:0 0.5em;
+    display:inline-block;
+    border: 7px solid transparent;
+    border-top:8px solid gray;
+    border-bottom:0 none;
+}
+.swipe{
+    width: 100%;
+    height: 100px;
+    margin-left: 0px;
+    margin-top: 148px;
+   
+}
+.bg-buddy2{
+    height: 40px;
+    width: 40px;
+}
+.monuse{
+    width: 100%;
+   
+}
+.methhead{
+    height: 87vh;
+    width: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+   
+ 
+}
+
+.kkl {
+    animation: MoveUpDown 2s cubic-bezier(0.4, 0, 1, 1) infinite;;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  
+  @keyframes MoveUpDown {
+    0%, 100% {
+      bottom: 0;
+    }
+    50% {
+      bottom: 10px;
+    }
+  }
+  .kkl{
+    width: 100%;
+  }
+  .about{
+    width: 100%;
+    height: 87vh;
+    background-color:#18181a;
+  }
+  .services{
+    width: 100%;
+    height: 87vh;
+    background-color:white;
+  }
+  .work{
+    width: 100%;
+    height: 140vh;
+    background-color:#18181a;
+  }
+  .connect{
+    width: 100%;
+    height:107vh;
+    background-color:#18181a;
+  }
+ 
+  hr {
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .round1{
+    width: 90%;
+    height: 300px;
+    background-color: #25262e;
+    min-height: 88%;
+    overflow-y: scroll;
+    border-radius: 14px;
+  }
+.ukg{
+    width: 100%;
+}
+.ukg2{
+    width: 100%;
+}
+.kalan{
+  width: 91%;
+  height: 200px;
+  min-width: 95%;
+  background-color: #25262e;
+  min-height: 88%;
+  border-radius: 14px;
+  overflow-y: scroll;
+  transition-property:scale;
+  transition-duration: .5s;
+  transition-timing-function:ease-in-out;
+  transition-delay: 2s;
+  transition: 1s;
+
+
+}
+.kalan:hover{
+  transform: scale(1.03);
+  z-index: 2;
+  
+  
+}
+
+
+
+.card-text{
+  color: white;
+}
+.cardtext{
+  color: white;
+}
+
+.round2{
+  width: 10%;
+  height: 300px;  
+  min-height: 88%;
+  border-radius: 14px;
+}
+.writing{
+  width: 20%;
+  height: 100px;
+  min-height: 20%;
+  background-color: #25262e;
+
+}
+.machan{
+  height: 70vh;
+  min-height: 30%;
+  width: 100%;
+  
+}
+.machan2{
+  height: 70vh;
+  min-height: 30%;
+  width: 100%;
+}
+.messagex{
+  width: 90%;
+  height: 445px;
+  background-color: #25262e;
+  min-height: 88%;
+  border-radius: 14px;
+}
+.contct{
+  color: white;
+  background-color: #25262e;
+  width: 63%;
+  height: 45px;
+}
+::placeholder {
+  color: white;
+  opacity: 1; 
+}
+
+::-ms-input-placeholder { 
+  color: white;
+}
+.contctx{
+  width: 58%;
+  color: white;
+  height: 156px;
+  background-color: #25262e;
+
+}
+.btnx{
+  width: 20%;
+  height: 45px;
+  color: white;
+  background-color: #757782;
+
+}
+.contct:focus{
+  border: 2px solid white;
+  background-color: #50525c;
+}
+.edngr{
+  width: 100%;
+}
+.linku{
+  width: 100%;
+}
+.contctx:focus{
+  border: 2px solid white;
+  background-color: #50525c;
+}
+.njnan{
+  width: 310px;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+  
+}
+.over{
+  overflow-y: auto;
+  overflow: auto;
+}
+.nav-link{
+  color: #25262e;
+}
+.butt1{
+  width: 91%;
+  height: 200px;
+  background-color: #25262e;
+  min-height: 88%;
+  border-radius: 14px;
+
+
+  transition-property:scale;
+  transition-duration: .5s;
+  transition-timing-function:ease-in-out;
+  transition-delay: 2s;
+  transition: 1s;
+}
+.active.chali{
+  filter: blur(5px)brightness(.7);
+}
+.popupcontainer1{
+  display: flex;
+  opacity:1 ;
+  transition: all .7s;
+  color: white;
+  transform: scale(1);
+  z-index: 5;
+  position: absolute;
+  width: 90%;
+  height: 300px;
+  background-color: #25262e;
+  min-height: 88%;
+  overflow-y: scroll;
+  border-radius: 14px;
+  
+
+}
+.active.popupcontainer1{
+  visibility: hidden;
+  opacity: 0;
+  top: 10%;
+}
+.popupcontainer2{
+  position: absolute;
+  display: flex;
+  opacity:1 ;
+  transition: all .7s;
+  transform: scale(1);
+  z-index: 5;
+  width: 90%;
+  height: 300px;
+  background-color: #25262e;
+  min-height: 88%;
+  overflow-y: scroll;
+  border-radius: 14px;
+  
+  
+
+}
+.active.popupcontainer2{
+  visibility: hidden;
+  opacity: 0;
+  top: 10%;
+}
+.butt2{
+  width: 91%;
+  height: 200px;
+  background-color: #25262e;
+  min-height: 88%;
+  border-radius: 14px;
+
+
+  transition-property:scale;
+  transition-duration: .5s;
+  transition-timing-function:ease-in-out;
+  transition-delay: 2s;
+  transition: 1s;
+}
+.popupcontainer3{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  opacity:1 ;
+  transition: all .7s;
+  transform: scale(1);
+  z-index: 5;
+  width: 90%;
+  height: 300px;
+  background-color: #25262e;
+  min-height: 88%;
+  overflow-y: scroll;
+  border-radius: 14px;
+ 
+  
+
+}
+.active.popupcontainer3{
+  visibility: hidden;
+  opacity: 0;
+  top: 10%;
+}
+.butt3{
+  width: 91%;
+  height: 200px;
+  background-color: #25262e;
+  min-height: 88%;
+  border-radius: 14px;
+
+
+  transition-property:scale;
+  transition-duration: .5s;
+  transition-timing-function:ease-in-out;
+  transition-delay: 2s;
+  transition: 1s;
+}
+.popupcontainer4{
+  position: absolute;
+  display: flex;
+  opacity:1 ;
+  transition: all .7s;
+  width: 90%;
+  height: 300px;
+  background-color: #25262e;
+  min-height: 88%;
+  overflow-y: scroll;
+  border-radius: 14px;
+  transform: scale(1);
+  z-index: 5;
+  
+  
+  
+
+}
+.active.popupcontainer4{
+  visibility: hidden;
+  opacity: 0;
+  top: 10%;
+}
+.butt4{
+  width: 91%;
+  height: 200px;
+  background-color: #25262e;
+  min-height: 88%;
+  border-radius: 14px;
+  transition-property:scale;
+  transition-duration: .5s;
+  transition-timing-function:ease-in-out;
+  transition-delay: 2s;
+  transition: 1s;
+}
+.pova{
+  
+  margin-left: 0px;
+  width: 100%;
+  margin-top: 0px;
+  cursor: pointer;
+    background-color:#18181a;
+    flex-direction: column;
+    
+}
+::-webkit-scrollbar {
+  display: block;
+}
+body::-webkit-scrollbar {
+  width: 12px;              
+}
+
+body::-webkit-scrollbar-track {
+  background:#18181a;        
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #25262e;   
+  border-radius: 10px;       
+  border: 3px solid #b1b4ba;  
+}
+.hllll{
+  width: 100%;
+ height: 10vh;
+ position: absolute;
+}
+.aara{
+  width: 100%;
+    overflow-y: scroll;
+    padding-left: 20px;
+   
+}
+.img2{
+  width: 310px;
+  height: 350px;
+  padding-left: 10px;
+}
+.hllll4{
+  width: 100%;
+ height: 10vh;
+ position: absolute;
+}
+.aara4{
+  width: 100%;
+    overflow-y: scroll;
+    padding-left: 20px;
+}
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 80px;
+  aspect-ratio: 1.154;
+  clip-path: polygon(50% 0,100% 100%,0 100%);
+  --c:no-repeat linear-gradient(white 0 0);
+  background: var(--c),var(--c),var(--c),var(--c),var(--c);
+  background-size: 100% calc(100%/5 + 1px);
+  animation: l15 2s infinite;
+}
+@keyframes l15 {
+  0%  {background-position: 0 calc(-2*100%/4),0 calc(-2*100%/4),0 calc(-2*100%/4),0 calc(-2*100%/4),0 calc(-2*100%/4)}
+  20% {background-position: 0 calc(4*100%/4) ,0 calc(-2*100%/4),0 calc(-2*100%/4),0 calc(-2*100%/4),0 calc(-2*100%/4)}
+  40% {background-position: 0 calc(4*100%/4) ,0 calc(3*100%/4) ,0 calc(-2*100%/4),0 calc(-2*100%/4),0 calc(-2*100%/4)}
+  60% {background-position: 0 calc(4*100%/4) ,0 calc(3*100%/4) ,0 calc(2*100%/4) ,0 calc(-2*100%/4),0 calc(-2*100%/4)}
+  80% {background-position: 0 calc(4*100%/4) ,0 calc(3*100%/4) ,0 calc(2*100%/4) ,0 calc(1*100%/4) ,0 calc(-2*100%/4)}
+  100%{background-position: 0 calc(4*100%/4) ,0 calc(3*100%/4) ,0 calc(2*100%/4) ,0 calc(1*100%/4) ,0 calc(0*100%/4)}
+}
+.aara1{
+  width: 100%;
+    overflow-y: scroll;
+    padding-left: 20px;
+}
+.hllll1{
+  width: 100%;
+ height: 10vh;
+ position: absolute;
+}
+.aara3{
+  width: 100%;
+    overflow-y: scroll;
+    padding-left: 20px;
+}
+.hllll3{
+  width: 100%;
+ height: 10vh;
+ position: absolute;
+}
+ 
